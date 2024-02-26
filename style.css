@@ -5,3 +5,6 @@
     --botao-inativado: rgba(58, 55, 94, 0.5);
     --texto-de-fundo: rgba(58, 55, 94, 0.3);
 }
+h1{
+    font-family: "Kode Mono", monospace;
+}
