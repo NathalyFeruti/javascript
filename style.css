@@ -1,10 +1,18 @@
 :root{
-    --cor-de-fundo: #1e1e1e;
+    --cor-de-fundo: #000000;
     --verde: #6fff57;
-    --botao-ativado: #3a3756;
-    --botao-inativado: rgba(58, 55, 94, 0.5);
-    --texto-de-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativado: #4531f5;
+    --botao-inativado: rgba(0, 0, 0, 0.5);
+    --texto-de-fundo: rgb(255, 255, 255);
 }
-h1{
+
+body{ 
+    background-color: var(--cor-de-fundo);
+    color: whitesmoke;
     font-family: "Kode Mono", monospace;
+}
+
+.botoes{
+    background-color: var(--botao-inativado);
+    color: white;
 }
