@@ -1,18 +1,21 @@
 :root{
-    --cor-de-fundo: #000000;
+    --cor-de-fundo: #5a00ea;
     --verde: #6fff57;
-    --botao-ativado: #4531f5;
-    --botao-inativado: rgba(0, 0, 0, 0.5);
-    --texto-de-fundo: rgb(255, 255, 255);
-}
+    --botao-ativado: #f01f18;
+    --botao-inativado: #ecde16;
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+}   
 
-body{ 
+body{
     background-color: var(--cor-de-fundo);
-    color: whitesmoke;
-    font-family: "Kode Mono", monospace;
+    color: white;
+    font-family: "Anta", sans-serif;
 }
 
-.botoes{
+.botao{
     background-color: var(--botao-inativado);
     color: white;
 }
+
+
+
